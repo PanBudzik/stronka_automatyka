@@ -1,0 +1,234 @@
+/*BASICS*/
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img/background.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+#container {
+    float: left;
+    margin: 30px 5%;
+    padding: 0px;
+    width: 90%;
+    background-color: darkgreen;
+    opacity: 75%;
+}
+
+.title {
+    float: left;
+    width: 92%;
+    padding: 20px 2%;
+    margin: 15px 2%;
+    text-align: center;
+    background-color: #3FBD22;
+    opacity: 90%;
+    font-size: 48px;
+}
+
+.title:hover {
+    opacity: 100%;
+    transition: 0.1s;
+    -webkit-box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+    -moz-box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+    box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+}
+
+.block {
+    float: left;
+    width: 42%;
+    padding: 30px 2%;
+    margin: 15px 2%;
+    background-color: #3FBD22;
+    opacity: 60%;
+    transition: 0.1s;
+}
+
+.block:hover {
+    opacity: 100%;
+    transition: 0.1s;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+    -moz-box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+    box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+}
+
+.layer {
+    height: 120px;
+    display: block;
+    pointer-events: none;
+}
+
+
+/*SERVEILENCE*/
+
+.chosen_one
+/*użyte w water*/
+
+{
+    float: left;
+    width: 100%;
+    padding: 1%;
+    background-color: #3FBD22;
+}
+
+.chosen_img {
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+
+.surv_but {
+    float: left;
+    width: 20%;
+    padding: 30px 2%;
+    margin: 30px 4.6%;
+    background-color: #3FBD22;
+    opacity: 60%;
+    transition: 0.1s;
+}
+
+.surv_but_img {
+    height: 40px;
+}
+
+.surv_but:hover {
+    opacity: 100%;
+    transition: 0.1s;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+    -moz-box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+    box-shadow: 0px 0px 11px 12px rgba(133, 219, 112, 0.8);
+}
+
+.surv_blocks {
+    float: right;
+    overflow: auto;
+    overflow-x: hidden;
+    width: 50%;
+    height: 500px;
+    margin: 5px;
+}
+
+.surv_block {
+    float: left;
+    width: 100%;
+    height: 100px;
+    padding: 10px 2%;
+    margin: 15px 2% 5px 2%;
+    background-color: #3FBD22;
+    opacity: 60%;
+    transition: 0.1s;
+}
+
+.surv_block:hover {
+    opacity: 100%;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.surv_img {
+    float: left;
+    height: 100px;
+}
+
+.surv_desc {
+    float: right;
+    width: 40%;
+    font-size: 26px;
+    margin: 37px 0px 37px 10px;
+}
+
+.left {
+    width: 46%;
+    margin: 15px 2%;
+}
+
+@media (max-width: 1000px) {
+    .left {
+        width: 94%;
+        margin: 15px 2%;
+    }
+    .chosen_img {
+        float: left;
+        height: 100%;
+        width: 100%;
+    }
+    .surv_blocks {
+        width: 98%;
+        margin-bottom: 10px;
+    }
+}
+
+
+/*WATER*/
+
+.wat_blocks {
+    float: right;
+    overflow: auto;
+    overflow-x: hidden;
+    width: 25%;
+    height: 100%;
+    margin: 0px 2%;
+}
+
+.wat_block {
+    float: left;
+    width: 100%;
+    height: 100px;
+    padding: 10px 2%;
+    margin: 5px 2%;
+    background-color: #3FBD22;
+    opacity: 60%;
+    transition: 0.1s;
+}
+
+.wat_block:hover {
+    opacity: 100%;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+.wat_desc {
+    text-align: center;
+    font-size: 26px;
+    margin: 37px 0px 37px 10px;
+}
+
+.wat_left {
+    width: 68%;
+    margin: 15px 2%;
+}
+
+.graf {
+    background-color: azure;
+}
+
+@media (max-width: 1000px) {
+    .wat_left {
+        width: 94%;
+        margin: 15px 2%;
+    }
+    .wat_blocks {
+        height: 300px;
+        width: 98%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Zadanie na TAI Piotr Kijoch">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Piotr Kijoch">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Kijoch_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="Kijoch_grafs_manager.js"></script>
+    <script src="Kijoch_doubleclick_block.js"></script>
+    <script src="chartsjs\Chart.min.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <a href="index_Kijoch.html">
+            <div class="title">
+                SmartHOME Operator
+            </div>
+        </a>
+
+
+
+        <div class="wat_blocks">
+            <div class="wat_block" id="pl1" onclick="grafs_manager(this.id)">
+
+                <h2 class="wat_desc">Nawodnienie 1</h2>
+            </div>
+            <div class="wat_block" id="pl2" onclick="grafs_manager(this.id)">
+
+                <h2 class="wat_desc">Nasłonecznienie</h2>
+            </div>
+            <div class="wat_block" id="pl3" onclick="grafs_manager(this.id)">
+
+                <h2 class="wat_desc">Wiatr</h2>
+            </div>
+            <div class="wat_block" id="pl4" onclick="grafs_manager(this.id)">
+
+                <h2 class="wat_desc">Nawodnienie 2</h2>
+            </div>
+        </div>
+
+        <div class="wat_left">
+            <canvas class="graf" id='myChart' height="185px"></canvas>
+            <script>
+                grafs_manager();
+            </script>
+        </div>
+
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>

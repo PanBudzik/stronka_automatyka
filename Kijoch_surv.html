@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Zadanie na TAI Piotr Kijoch">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Piotr Kijoch">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Kijoch_style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <script src="Kijoch_surveilence.js"></script>
+    <script src="Kijoch_doubleclick_block.js"></script>
+</head>
+
+<body>
+    <div id="container">
+        <a href="index_Kijoch.html">
+            <div class="title">
+                SmartHOME Operator
+            </div>
+        </a>
+
+
+
+        <div class="surv_blocks">
+            <div class="surv_block" id="ch1" onclick="surveilence(this.id)">
+                <img src="img/ch1.jpg" class="surv_img" />
+                <h2 class="surv_desc">Kamera 1</h2>
+            </div>
+            <div class="surv_block" id="ch2" onclick="surveilence(this.id)">
+                <img src="img/ch2.jpg" class="surv_img" />
+                <h2 class="surv_desc">Kamera 2</h2>
+            </div>
+            <div class="surv_block" id="ch3" onclick="surveilence(this.id)">
+                <img src="img/ch3.jpg" class="surv_img" />
+                <h2 class="surv_desc">Kamera 3</h2>
+            </div>
+            <div class="surv_block" id="ch4" onclick="surveilence(this.id)">
+                <img src="img/ch4.jpg" class="surv_img" />
+                <h2 class="surv_desc">Kamera 4</h2>
+            </div>
+        </div>
+
+        <div class="left">
+            <div class="chosen_one">
+                <img src="img/ch1.jpg" class="chosen_img" id="main" />
+            </div>
+            <div id="back" class="surv_but" onclick="back()">
+                <center><img src="img/back.png" class="surv_but_img" /></center>
+            </div>
+            <div id="next" class="surv_but" onclick="next()">
+                <center><img src="img/next.png" class="surv_but_img" /></center>
+            </div>
+            <a href="index_Kijoch.html">
+                <div class="surv_but">
+                    <center><img src="img/home.png" class="surv_but_img" /></center>
+                </div>
+            </a>
+        </div>
+
+    </div>
+    <script>
+    </script>
+</body>
+
+</html>
